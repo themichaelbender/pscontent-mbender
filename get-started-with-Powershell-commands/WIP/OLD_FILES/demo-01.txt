@@ -1,0 +1,61 @@
+#Demo-M2-01
+
+Get-Help Get-Verb | more
+
+cls
+
+Get-Verb | more
+
+cls
+
+Get-Verb -Verb M*
+
+
+
+Get-Verb -Verb Measure
+
+cls
+
+Get-Verb -Group Security
+
+cls
+
+start https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-Verbs-for-windows-powershell-commands?view=powershell-7.2
+
+cls
+
+Help about* | More
+
+cls 
+ 
+Help about_Aliases
+
+cls
+
+Get-service -Name P* -RequiredServices
+
+Get-Alias -Name *service*
+
+cls
+
+Get-Alias -Name S*
+
+cls  
+
+Get-Alias -Name Get-S*
+
+Get-Alias -Name G* | Format-Table Name,Definition
+
+cls
+
+Get-Alias -Definition *service*  
+
+gsv -Name P* -RequiredServices
+
+get-help gsv
+
+cls
+
+gsv p* -RequiredServices
+
+gsv P* -Req

@@ -1,0 +1,97 @@
+#m3-demo-help
+
+Get-Help Get-Verb | more
+
+cls
+
+Get-Verb | more
+
+cls
+
+Get-Verb -Verb M*
+
+
+
+Get-Verb -Verb Measure
+
+cls
+
+Get-Verb -Group Security
+
+cls
+
+start https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-Verbs-for-windows-powershell-commands?view=powershell-7.2
+
+cls
+
+Help about* | More
+
+cls 
+ 
+Help about_Aliases
+
+cls
+
+Get-service -Name P* -RequiredServices
+
+Get-Alias -Name *service*
+
+cls
+
+Get-Alias -Name S*
+
+cls  
+
+Get-Alias -Name Get-S*
+
+Get-Alias -Name G* | Format-Table Name,Definition
+
+cls
+
+Get-Alias -Definition *service*  
+
+gsv -Name P* -RequiredServices
+
+get-help gsv
+
+cls
+
+gsv p* -RequiredServices
+
+gsv P* -Req
+
+#Demo 3 - Get Commands
+cls
+Write-host "Starting Get-command"
+cls
+Help get-command  
+cls
+Help Get-Command -examples
+cls
+get-command 
+cls
+get-command -verb New
+cls
+get-command -CommandType Function
+cls
+get-alias -Definition *command*
+
+gcm -verb New
+cls
+#You are looking for a command to view with IP Address Configurations on a Windows System
+gcm -name *IP*
+cls
+gcm -name Get*IP*
+cls
+gcm -name Get*IPaddress*
+cls
+help Get-NetIPAddress -examples
+cls
+get-NetIPAddress | format-table
+cls
+gcm -name *alias
+cls
+help new-alias -examples
+cls
+set-alias -name IP -value get-NetIPAddress
+IP | format-table

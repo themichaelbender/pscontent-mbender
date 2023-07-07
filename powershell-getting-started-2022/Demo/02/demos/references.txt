@@ -1,0 +1,13 @@
+# References for PowerShell Getting Started Course
+
+# PowerShell Install
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.3
+
+# Windows Terminal
+https://learn.microsoft.com/en-us/windows/terminal/
+
+# PowerShell Documentation
+https://learn.microsoft.com/en-us/powershell/
+
+# Azure Cloud PowerShell
+https://learn.microsoft.com/en-us/azure/cloud-shell/overview

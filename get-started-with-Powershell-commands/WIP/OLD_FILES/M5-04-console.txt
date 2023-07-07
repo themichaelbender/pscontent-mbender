@@ -1,0 +1,31 @@
+Ping pluralsight.com
+
+ipconfig /all
+
+cmd
+
+Nslookup Pluralsight.com
+
+Nslookup Pluralsight.com | gm
+
+pwsh
+# callout of PS in line
+$NSlookup = Nslookup Pluralsight.com
+
+$NSlookup 
+
+$NSLookup | gm
+cls
+$Nslookup | Export-CSV .\nslookup.CSV
+
+Notepad nslookup.csv
+
+cmd
+Ping pluralsight.com
+powershell
+$PSversiontable
+
+pwsh
+$PSVersionTable
+
+"ipconfig /all" | cmd
